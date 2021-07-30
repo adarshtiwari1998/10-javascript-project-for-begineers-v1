@@ -12,3 +12,9 @@
 
 - future date
 - timer
+
+> 2. Quiz App
+
+- question from object
+- select answer
+- at the end show score
