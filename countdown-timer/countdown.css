@@ -2,11 +2,13 @@
 
 * {
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
 body {
     font-family: 'Open Sans', sans-serif;
-    background-image: url('./assets/images/countdown-background.jpg');
+    background:linear-gradient(0deg, rgba(92, 92, 92, 0.3), rgba(15, 14, 15, 0.3)), url("https://media.istockphoto.com/photos/indian-festival-raksha-bandhan-with-rakhi-bracelets-presents-rice-and-picture-id1257015025?b=1&k=6&m=1257015025&s=170667a&w=0&h=JDwNhb-5DWgMTvZCnORPdoq9pPrypyrmTw7Tp0SoY6M=");
     background-position: center center;
     background-size: cover;
     min-height: 100vh;
@@ -20,17 +22,29 @@ body {
 h1 {
     font-size: 4rem;    /* 1rem = 16px  */
     font-weight: normal;
+    color: rgb(245, 243, 243);
     margin-top: 5rem;
 }
+
+@media screen and (max-width: 762px) {
+  h1 {
+      font-size: 24px;
+      margin: 0 auto;
+      text-align: center;
+  }
+}
 .countdown-container {
-    display: flex;
-    flex-direction: row;  
+    display: flex;  
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
 .big-text-counter {
     font-size: 6rem;
     line-height: 1;
-    margin: 0 2rem;   /* vertical 0 (top, bottom) , horizontal 2rem (right, left) */ 
+    color: rgb(251, 255, 249);
+    margin: 1rem 2rem;   /* vertical 0 (top, bottom) , horizontal 2rem (right, left) */ 
     font-weight: 700;
      
 }
@@ -40,5 +54,6 @@ h1 {
 }
 
 .countdown-elemt span {
-   font-size: 1.5rem
+   font-size: 1.5rem;
+   color: rgb(238, 238, 238);
 }
