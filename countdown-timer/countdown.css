@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-image: url('./assets/images/countdown-background.jpg');
+    background-position: center center;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    margin: 0;
+}
+
+h1 {
+    font-size: 4rem;    /* 1rem = 16px  */
+    font-weight: normal;
+    margin-top: 5rem;
+}
+.countdown-container {
+    display: flex;
+    flex-direction: row;  
+}
+
+.big-text-counter {
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;   /* vertical 0 (top, bottom) , horizontal 2rem (right, left) */ 
+    font-weight: 700;
+     
+}
+
+.countdown-elemt {
+    text-align: center;
+}
+
+.countdown-elemt span {
+   font-size: 1.5rem
+}
