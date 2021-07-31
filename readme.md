@@ -17,3 +17,5 @@
 - question from object
 - select answer
 - at the end show score
+- design inspiration: <https://www.uidesigndaily.com/posts/sketch-questionnaire-choice-submit-day-924>
+- gradient color: <https://www.eggradients.com/>
