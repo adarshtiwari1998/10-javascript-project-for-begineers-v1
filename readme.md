@@ -4,18 +4,27 @@
 
 - how to create css classes in different way: <http://bdavidxyz.com/blog/how-to-name-css-classes/>
 
+1. Countdown Timer
 
-> 1. Countdown Timer
-
-- future date
-- timer
+- future date.
+- timer.
 - Design inspiration: <https://www.uidesigndaily.com/posts/sketch-countdown-timer-day-876>
 - Unsplash Images: <https://unsplash.com/>
 
-> 2. Quiz App
+2. Quiz App
 
 - question from object
 - select answer
 - at the end show score
 - design inspiration: <https://www.uidesigndaily.com/posts/sketch-questionnaire-choice-submit-day-924>
 - gradient color: <https://www.eggradients.com/>
+
+
+3. Recipe App
+
+- list of recipes
+- recipe info on clicking
+- fav recipe with localstorage
+- design inspiration: <https://www.uidesigndaily.com/posts/sketch-recipe-app-food-mobile-day-615>
+
+
