@@ -78,7 +78,7 @@ const mathQuizData = [
       // console.log(correctAns);
   
       let correctAns = undefined;
-      correctAnsEl.forEach((correctAnsEl) => {
+        correctAnsEl.forEach((correctAnsEl) => {
           // console.log(correctAns.checked);
           if(correctAnsEl.checked) {
               //store the answer
@@ -116,7 +116,9 @@ const mathQuizData = [
       } else {
           // alert("Congrats! You finished the Math Quiz");
           // console.log(alert);
-          quiz.innerHTML = `<h2>You Answered correctly ${score} out of ${mathQuizData.length} questions</h2>`
+          quiz.innerHTML = `<h2>You Answered correctly ${score} out of ${mathQuizData.length} questions</h2>
+          <button id="reload-btn" onclick="location.reload()">Reload</button>
+          `
       }
       }
        

@@ -69,3 +69,7 @@ button:hover {
 .quiz-score {
     padding: 1rem
 }
+
+#reload-btn {
+    background-color: #8d8d8d
+}
