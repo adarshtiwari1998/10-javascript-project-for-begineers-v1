@@ -66,6 +66,10 @@ button:hover {
     background-color: #2d03fc;
 }
 
+button:focus {
+    outline: none;
+    background-color: #472fbd;
+}
 .quiz-score {
     padding: 1rem
 }
