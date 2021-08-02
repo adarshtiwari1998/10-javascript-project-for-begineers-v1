@@ -26,5 +26,6 @@
 - recipe info on clicking
 - fav recipe with localstorage
 - design inspiration: <https://www.uidesigndaily.com/posts/sketch-recipe-app-food-mobile-day-615>
+- heroicons: <https://heroicons.com/>
 
 
